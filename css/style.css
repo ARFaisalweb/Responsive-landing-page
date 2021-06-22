@@ -1,149 +1,126 @@
-ul a{
-   font-weight: 600;
-   margin: 10px;
+body {
+  background-color: #fcf9f1;
+  font-family: "Bebas Neue", cursive;
 }
-.navigation-bar{
-    background-color:whitesmoke;
+.logo {
+  width: 350px;
 }
-.head-img{
-    height: 40px;
-    width: 300px;
+.header-nav {
+  margin-left: auto;
+  font-weight: 750;
 }
-.top-banner{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    background-color:whitesmoke;
+.purchase-button {
+  width: 120px;
+  background-color: rgb(87, 141, 63);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+  text-transform: uppercase;
 }
-.banner-content{
-    width: 90%;
-    height: auto;
-    padding: 30px;
-    margin: 20px;
+.purchase-button:hover {
+  box-shadow: 0 0 10px gray;
 }
-.banner-img{
-    height: 400px;
-    width:400px;
+.header-nav-link {
+  color: #302e2e !important;
+  font-size: 18px;
 }
-.banner-headline-1{
-    font-weight: 700;
-    font-size: 50px;
-    color: tomato;
-}
-.banner-headline-2{
-    font-weight: 700;
-    font-size: 50px;
-    color:rgb(2, 37, 66);
-}
-p{
-    color: gray;
-}
-.button-customise{
-    border: 0;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 10px;
-   background-color: rgb(102, 160, 27);
-   width: 140px;
-   height: 50px;
-   color: white;
-   font-weight: 500;
-}
-.product-display{
-    height: auto;
-}
-.product-card-headline{
-    padding: 10px;
-    margin: 20px;
-    font-size: 35px;
-    font-weight: 700;
-    color:rgb(2, 37, 66);
-}
-.card-image{
-    width: 85%;
-    height: 350px;
-    border-radius: 15px;
-    background-color: rgb(238, 227, 227);
-    padding: 45px;
-    margin: 26px;  
-}
-.product-card{
-    border: 0;
-    border-radius: 15px;
-}
-.product-card-footer{
-    border: 0;
-}
-.product-tittle{
-    color: rgb(3, 3, 27);
-    font-weight: 700;
-}
-.product-rate{
-    font-size: 30px;
-    font-weight: 700;
-    color: rgb(212, 177, 18);
-}
-.bottom-section{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
-.bottom-banner-items{
-    margin-top: 30px;
-}
-.bottom-banner-img{
-    width: 96%;
-}
-.side-card-img{
-    height: 70px;
-    width: 70px;
-    margin: 15px;
-}
-.side-card{
-    width: 90%;
-    border: 0;
-    border-radius: 10px;
-    margin: 15px;
-}
-.card-horizontal {
-    display: grid;
-    grid-template-rows: repeat(3,1fr);
-}
-.side-card-body{
-      padding: 10px;
-      margin: 15px;
-}
-@media (max-width: 992px) {
-    .top-banner{
-        grid-template-columns: repeat(1, 1fr);
-    }
-  }
-  @media (max-width: 688px) {
-    .top-banner{
-        grid-template-columns: repeat(1, 1fr);
-    }
-  }
-  @media (max-width: 992px) {
-    .card-body{
-        grid-template-columns: repeat(2, 1fr);
-     }
-  }
-  @media (max-width: 688px) {
-    .card-body{
-        grid-template-columns: repeat(1, 1fr);
-    }
-  }
-  @media (max-width: 992px) {
-    .bottom-section{
-        grid-template-columns: repeat(1, 1fr);
-     }
-     
-  }
-  @media (max-width: 688px) {
-    .bottom-section{
-        grid-template-columns: repeat(1, 1fr);
-     }
-     .side-card-img{
-        width: 80%;
-        margin: 15px;
-    }
 
-  }
+.main-title,
+.main-title2 {
+  text-transform: uppercase;
+  font-size: 85px;
+}
+.main-title {
+  color: #f3b748;
+}
+.main-title2 {
+  color: #333658;
+}
+.header-text {
+  color: #333658;
+  line-height: 26px;
+}
+.profile-img img {
+  width: 85%;
+}
+.product-title {
+  color: #333658;
+  font-size: 40px;
+  margin-top: 80px;
+}
+.product {
+  border: none;
+  box-shadow: 0 0 10px gray;
+  border-radius: 10px;
+  width: 95%;
+}
+.product:hover {
+  box-shadow: 0 0 20px gray;
+}
+.product h5 {
+  font-size: 20px;
+  color: #333658;
+  font-weight: 700;
+}
+.card-descreption {
+  color: #333658;
+  font-size: 15px;
+}
+.price {
+  font-size: 40px;
+  color: rgb(255, 206, 71);
+  font-weight: bold;
+}
+
+.product-img-div {
+  background-color: white;
+  border-radius: 15px;
+  width: 90%;
+  height: 70;
+  padding: 10px;
+  margin: 15px auto;
+}
+.product-img-div:hover {
+  box-shadow: 0 0 15px whitesmoke;
+}
+.product-img {
+  width: 100%;
+  height: 280px;
+  padding: 15px;
+}
+
+.policy-img {
+  width: 70px;
+}
+
+.policy-title {
+  font-size: 28px;
+  color: #333658;
+  font-weight: 700;
+}
+.policy-description {
+  font-size: 17px;
+}
+
+#testimonial-section {
+  padding: 40px 10%;
+}
+#testimonial-head {
+  font-size: 35px;
+  text-align: center;
+  color: #333658;
+}
+.testimonial {
+  text-align: center;
+  width: 90%;
+  margin: 4%;
+  padding: 15px;
+  color: #444343;
+  box-shadow: 0 0 5px #444343;
+  border-radius: 10px;
+}
+.testimonial:hover {
+  box-shadow: 0 0 10px #444343;
+}

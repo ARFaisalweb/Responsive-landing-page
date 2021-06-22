@@ -1,178 +1,474 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
-    <link rel="stylesheet" href="css/all.min.css">
-</head>
-<body>
-   <header class="container navigation-bar">
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img class="head-img" src="Logo/Website name.png" alt=""></a>
-          <div>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-nav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-            <span class="navbar-text collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Product</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">About us</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Contact us</a>
-                      </li>
-                  </ul>
-            </span>
-          </div>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header class="container-fluid pb-5">
+      <nav class="container navbar navbar-expand-lg navbar-light py-5">
+        <a class="navbar-brand" href="#"
+          ><img src="logo/Website name.png" class="logo" alt=""
+        /></a>
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav header-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link px-4 header-nav-link"
+                aria-current="page"
+                href="#"
+                >Home
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-4 header-nav-link" href="#">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-4 header-nav-link" href="#">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-4 header-nav-link" href="#">Contact us</a>
+            </li>
+          </ul>
         </div>
       </nav>
-   </header>
-   <section class="container top-banner">
-       <div class="banner-content">
-           <h1><span class="banner-headline-1">BE THE PENGUINS</span></h1>
-           <h1><span class="banner-headline-2">OF WINTER</span></h1>
-           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-           </p>
-           <button class="button-customise"><i class="fas fa-shopping-cart"></i> BUY NOW</button>
-       </div>
-           
-       <div class="banner-content">
-        <img class="banner-img" src="Image/Group 33091.png" alt="">
-       </div>
-   </section>
+    </header>
+    <section class="header-main container">
+      <div class="row">
+        <div class="col-md-6 header-main-left d-flex align-items-center mb-5">
+          <div>
+            <h1 class="main-title">Be the Penguins</h1>
+            <h1 class="main-title2">of Winter</h1>
+            <p class="header-text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure
+              quae culpa quod nam accusamus molestiae aut expedita alias vitae,
+              non officia animi atque consequuntur ad, asperiores voluptatum
+              fugit ipsam. Nemo.
+            </p>
+            <button class="purchase-button">Buy Now</button>
+          </div>
+        </div>
+        <div
+          class="
+            col-md-6
+            profile-img
+            text-center
+            d-flex
+            align-items-center
+            justify-content-center
+          "
+        >
+          <img src="image/profile.png" class="img-fluid" alt="" />
+        </div>
+      </div>
+    </section>
+    <!--Top Banner Woman Jacket-->
+    <main class="container">
+      <section>
+        <h2 class="product-title my-5 text-xl-start text-lg-start text-center">
+          Woman jacket
+        </h2>
+        <div class="row">
+          <div class="col-xl-4 col-lg-6 col-md-6 g-5">
+            <div
+              class="
+                card
+                h-80
+                product
+                mx-auto
+                d-flex
+                flex-column
+                align-item-center
+              "
+            >
+              <div class="product-img-div p-3 text-center">
+                <img src="image/SeekPng 1.png" class="product-img" alt="..." />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Yellow Coat Jacket</h5>
+                <p class="card-text card-descreption">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <p class="price">$234</p>
+                  <button class="purchase-button">
+                    <img src="images/icons/shopping-cart 1.png" alt="" /><span>
+                      Buy now</span
+                    >
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-6 col-md-6 g-5">
+            <div
+              class="
+                card
+                h-80
+                product
+                mx-auto
+                d-flex
+                flex-column
+                align-item-center
+              "
+            >
+              <div class="product-img-div p-3 text-center">
+                <img
+                  src="image/PngItem_2597366 1.png"
+                  class="product-img"
+                  alt="..."
+                  style="width: 220px"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Ladies Jacket</h5>
+                <p class="card-text card-descreption">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <p class="price">$234</p>
+                  <button class="purchase-button">
+                    <img src="images/icons/shopping-cart 1.png" alt="" /><span>
+                      Buy now</span
+                    >
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-6 col-md-6 g-5">
+            <div
+              class="
+                card
+                h-80
+                product
+                mx-auto
+                d-flex
+                flex-column
+                align-item-center
+              "
+            >
+              <div class="product-img-div p-3 text-center">
+                <img
+                  src="image/image 15.png"
+                  class="product-img"
+                  alt="..."
+                  style="width: 240px"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Woman Leather Jacket</h5>
+                <p class="card-text card-descreption">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <p class="price">$234</p>
+                  <button class="purchase-button">
+                    <img src="images/icons/shopping-cart 1.png" alt="" /><span>
+                      Buy now</span
+                    >
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Middle Banner Man Jacket-->
+      <section>
+        <h2 class="product-title text-xl-start text-lg-start text-center">
+          Man jacket
+        </h2>
+        <div class="row">
+          <div class="col-xl-4 col-lg-6 col-md-6 g-5">
+            <div
+              class="
+                card
+                h-80
+                product
+                mx-auto
+                d-flex
+                flex-column
+                align-item-center
+              "
+            >
+              <div class="product-img-div p-3 text-center">
+                <img
+                  src="image/image 11.png"
+                  class="product-img"
+                  alt="..."
+                  style="width: 250px"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Snowboard Jacket Mens</h5>
+                <p class="card-text card-descreption">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <p class="price">$234</p>
+                  <button class="purchase-button">
+                    <img src="images/icons/shopping-cart 1.png" alt="" /><span>
+                      Buy now</span
+                    >
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-6 col-md-6 g-5">
+            <div
+              class="
+                card
+                h-80
+                product
+                mx-auto
+                d-flex
+                flex-column
+                align-item-center
+              "
+            >
+              <div class="product-img-div p-3 text-center">
+                <img
+                  src="image/vippng 1.png"
+                  class="product-img"
+                  alt="..."
+                  style="width: 300px"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Man Leather Jackets</h5>
+                <p class="card-text card-descreption">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <p class="price">$234</p>
+                  <button class="purchase-button">
+                    <img src="images/icons/shopping-cart 1.png" alt="" /><span>
+                      Buy now</span
+                    >
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-6 col-md-6 g-5">
+            <div
+              class="
+                card
+                h-80
+                product
+                mx-auto
+                d-flex
+                flex-column
+                align-item-center
+              "
+            >
+              <div class="product-img-div p-3 text-center">
+                <img
+                  src="image//toppng 1.png"
+                  class="product-img"
+                  alt="..."
+                  style="width: 220px"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Man Casual Jackets</h5>
+                <p class="card-text card-descreption">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <p class="price">$234</p>
+                  <button class="purchase-button">
+                    <img src="images/icons/shopping-cart 1.png" alt="" /><span>
+                      Buy now</span
+                    >
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Policy -->
+      <section class="px-3 py-5 my-5">
+        <div class="row align-items-center d-flex">
+          <div class="col-lg-5 about-us-left order-lg-first order-last my-5">
+            <div
+              class="
+                d-flex
+                justify-content-center
+                align-items-center
+                py-2
+                flex-xl-row flex-md-row flex-column
+              "
+            >
+              <div>
+                <img
+                  class="policy-img"
+                  src="Logo/image 12.png"
+                  class="m-4"
+                  alt=""
+                />
+              </div>
+              <div
+                class="
+                  service-box-text
+                  mx-3
+                  text-xl-start text-md-start text-center
+                "
+              >
+                <h3 class="policy-title">Find the Perfect Fit</h3>
+                <p class="policy-description">
+                  Everybody is different, which is why we offer styles for every
+                  body.
+                </p>
+              </div>
+            </div>
+            <div
+              class="
+                d-flex
+                justify-content-center
+                align-items-center
+                py-2
+                flex-xl-row flex-md-row flex-column
+              "
+            >
+              <div>
+                <img
+                  class="policy-img"
+                  src="Logo/image 13.png"
+                  class="m-4"
+                  alt=""
+                />
+              </div>
+              <div
+                class="
+                  service-box-text
+                  mx-3
+                  text-xl-start text-md-start text-center
+                "
+              >
+                <h3 class="policy-title">Free Exchanges</h3>
+                <p class="policy-description">
+                  One of the many reasons you can shop with peace of mind.
+                </p>
+              </div>
+            </div>
+            <div
+              class="
+                d-flex
+                justify-content-center
+                align-items-center
+                py-2
+                flex-xl-row flex-md-row flex-column
+              "
+            >
+              <div>
+                <img
+                  class="policy-img"
+                  src="Logo/image 14.png"
+                  class="m-4"
+                  alt=""
+                />
+              </div>
+              <div
+                class="
+                  service-box-text
+                  mx-3
+                  text-xl-start text-md-start text-center
+                "
+              >
+                <h3 class="policy-title">Contact Our Seller</h3>
+                <p class="policy-description">
+                  They are here to help you. That's quite literally what we pay
+                  them for.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="
+              col-lg-6
+              offset-lg-1
+              about-us-right
+              order-first order-lg-last
+            "
+          >
+            <img src="Logo/XMLID 1.png" class="img-fluid" alt="" />
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Testimonials -->
+    <section id="testimonial-section">
+      <h3 id="testimonial-head">testimonial</h3>
+      <p class="text-center">What people said about us</p>
+      <div class="d-flex flex-xl-row flex-md-row flex-column">
+        <div class="testimonial">
+          <h3>Mr. John</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="testimonial">
+          <h3>Mr. Josef</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="testimonial">
+          <h3>Mr. Farhan</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+    </section>
 
-    <section class="container product-display mt-5">
-    <h2 class="product-card-headline">WOMAN JACKET</h2>
-    <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 row-cols-sm-1 g-4 mt-5">
-        <div class="col">
-          <div class="shadow product-card">
-            <img src="Image/SeekPng 1.png" class="card-image" alt="...">
-            <div class="card-body">
-                <h5 class="product-tittle">Yellow Coat Jacket</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </div>
-            <div class=" d-flex justify-content-around align-items-center product-card-footer">
-                <span class="product-rate">$234</span>
-              <button class="button-customise p-2"><i class="fas fa-shopping-cart"></i> BUY NOW</button>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="shadow product-card">
-            <img src="Image/PngItem_2597366 1.png" class="card-image" alt="...">
-            <div class="card-body">
-              <h5 class="product-tittle">Ladies Jacket</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </div>
-            <div class=" d-flex justify-content-around align-items-center product-card-footer">
-                <span class="product-rate">$234</span>
-              <button class="button-customise p-2"><i class="fas fa-shopping-cart"></i> BUY NOW</button>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="shadow product-card">
-            <img src="Image/image 15.png" class="card-image" alt="...">
-            <div class="card-body">
-              <h5 class="product-tittle">Woman Leather Jacket</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </div>
-            <div class="d-flex justify-content-around align-items-center product-card-footer">
-                <span class="product-rate">$234</span>
-              <button class="button-customise p-2"><i class="fas fa-shopping-cart"></i> BUY NOW</button>
-            </div>
-          </div>
-        </div>
+    <!-- Footer-->
+    <footer class="container my-4">
+      <div class="container text-center text-secondary pt-5 pb-2 small">
+        &copy;2021 | All right reserved to Penguin Fashion
       </div>
-</section>  
-<section class="container product-display mt-5">
-    <h2 class="product-card-headline">MAN JACKET</h2>
-    <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 row-cols-sm-1 g-4 mt-5">
-        <div class="col">
-          <div class="shadow product-card">
-            <img src="Image/image 11.png" class="card-image" alt="...">
-            <div class="card-body">
-                <h5 class="product-tittle">Snowboard Jacket Mens</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </div>
-            <div class=" d-flex justify-content-around align-items-center product-card-footer">
-                <span class="product-rate">$234</span>
-              <button class="button-customise p-2"><i class="fas fa-shopping-cart"></i> BUY NOW</button>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="shadow product-card">
-            <img src="Image/toppng 1.png" class="card-image" alt="...">
-            <div class="card-body">
-              <h5 class="product-tittle">Man Leather Jackets</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </div>
-            <div class=" d-flex justify-content-around align-items-center product-card-footer">
-                <span class="product-rate">$234</span>
-              <button class="button-customise p-2"><i class="fas fa-shopping-cart"></i> BUY NOW</button>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="shadow product-card">
-            <img src="Image/vippng 1.png" class="card-image" alt="...">
-            <div class="card-body">
-              <h5 class="product-tittle">Man Casual Jackets</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </div>
-            <div class="d-flex justify-content-around align-items-center product-card-footer">
-                <span class="product-rate">$234</span>
-              <button class="button-customise p-2"><i class="fas fa-shopping-cart"></i> BUY NOW</button>
-            </div>
-          </div>
-        </div>
-      </div>
-</section> 
-<section class="container mt-5 bottom-section">
-    <div class="bottom-banner-items">
-        <div class="card-horizontal side-card shadow d-flex justify-content-around align-items-center">
-            <div class="img-square-wrapper d-flex align-items-center ">
-                <img class="side-card-img" src="Logo/image 12.png" alt="">
-            </div>
-            <div class="side-card-body">
-                <h5 class="product-tittle">Find the Perfect Fit</h5>
-                <p class="card-text">Everybody is different, which is why we offer styles for every body.</p>
-            </div>
-        </div>
-        <div class="card-horizontal side-card shadow d-flex justify-content-around align-items-center">
-            <div class="img-square-wrapper d-flex align-items-center ">
-                <img class="side-card-img" src="Logo/image 13.png" alt="">
-            </div>
-            <div class="side-card-body">
-                <h5 class="product-tittle">Free Exchanges</h5>
-                <p class="card-text">One of the many reasons you can shop with peace of mind.</p>
-            </div>
-        </div>
-        <div class="card-horizontal side-card shadow d-flex justify-content-around align-items-center">
-            <div class="img-square-wrapper d-flex align-items-center ">
-                <img class="side-card-img" src="Logo/image 14.png" alt="">
-            </div>
-            <div class="side-card-body">
-                <h5 class="product-tittle">Contact Our Seller</h5>
-                <p class="card-text">They are here to help you. That's quite literally what we pay them for.</p>
-            </div>
-        </div>
-    </div>
-    <div class="bottom-banner-items">
-        <img class="bottom-banner-img" src="Logo/XMLID 1.png" alt="">
-    </div>
-</section>
-</body>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
